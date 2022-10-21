@@ -30,13 +30,17 @@ h1,h2,h3,h4, .navbar-brand {
 
 }
 
-#gmap_canvas {
-	height: 60vh;
-	width: 100%;
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
 }
-
-.fab {
-	font-size: 2rem;
+.map-container iframe{
+  left:0;
+  height:80%;
+  width:100%;
+  position:absolute;
 }
 
 html {
